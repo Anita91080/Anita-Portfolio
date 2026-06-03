@@ -20,11 +20,9 @@ with st.sidebar:
     st.write("English, Hindi, Kannada")
 
 # Hero Section
-st.title("AI & Deep Learning Enthusiast | Gait Analysis Specialist")
+st.title("Aspiring QA Engineer | Manual Testing | Core Java | SQL")
 st.markdown("""
-I am a Computer Science enthusiast passionate about AI and deep learning, with hands-on experience in 
-image enhancement and gait analysis. I aspire to innovate in AI-driven solutions that enhance 
-quality of life, leveraging my skills in neural networks, data analysis, and cloud AI platforms.
+I am a Computer Science graduate passionate about Software Testing and Quality Assurance, with knowledge of Manual Testing, Java, and SQL. I am interested in identifying bugs, improving software quality, and learning new testing technologies. I aspire to build a career as a QA Engineer by applying my analytical, problem-solving, and testing skills in real-world projects..
 """)
 
 st.write("---")
@@ -38,7 +36,7 @@ with tab1:
     # DRDO Internship
     with st.expander("Defence Research & Development Organisation (DRDO)", expanded=True):
         st.subheader("Gait Analysis & Biomechanical Assessment")
-        st.caption("August 2025 – June 2026")
+        st.caption("August 2025 – May 2026")
         st.write("""
         - **Full-Cycle Assessment:** Configured an 18-sensor wearable inertial system to capture high-fidelity motion data across the full human body.
         - **Data Engineering:** Managed the end-to-end data pipeline, transitioning raw sensor outputs into structured Excel datasets for rigorous noise reduction and preprocessing.
@@ -47,15 +45,7 @@ with tab1:
         """)
         st.info("**Skills:** Data Analysis, Python, Data Preparation, Power BI, SQL")
 
-    # Microsoft/Edunet Internship
-    with st.expander("Microsoft-led AI Internship (Edunet Foundation & AICTE)", expanded=False):
-        st.subheader("Artificial Intelligence with Azure")
-        st.caption("May 2025 – June 2025")
-        st.write("""
-        - Gained hands-on experience working with Microsoft Azure AI services and learned about cloud-based AI development workflows.
-        - Explored real-world applications of artificial intelligence, enhancing understanding of AI solution design across modern industries.
-        """)
-        st.info("**Skills:** Artificial Intelligence, Machine Learning, Python")
+    
 
 with tab2:
     st.header("Key Technical Projects")
@@ -84,37 +74,26 @@ with tab2:
 
     st.write("---")
 
-    # Amazon Clone
-    st.subheader("Amazon.com Shopping Website Clone")
-    st.caption("November 2025 – December 2025")
-    st.write("""
-    - Developed a high-fidelity front-end clone of the Amazon homepage using HTML and CSS, focusing on a complex, data-heavy e-commerce interface.
-    - **Technical Layout:** Implemented advanced CSS techniques, including Flexbox and CSS Grid, to manage multi-layered navigation and responsive product grids.
-    - **Design Integrity:** Demonstrated strong command of the Box Model, positioning, and cross-browser styling for a consistent user experience.
-    """)
-    st.info("**Skills:** HTML, CSS")
+    
 
 with tab3:
     st.header("Technical Stack")
     c1, c2, c3 = st.columns(3)
     with c1:
-        st.markdown("### Data & AI")
+        st.markdown("### AI & Testing & QA ")
         st.write("- Artificial Intelligence & ML")
-        st.write("- Deep Learning (CNN / SRCNN)")
-        st.write("- Data Analysis & Prep")
-        st.write("- Problem Solving")
+        st.write("- Data Analysis")
+        st.write("- Manual Testing")
     with c2:
         st.markdown("### Tools & Software")
-        st.write("- Power BI & SQL")
+        st.write("- Power BI ")
+        st.write("- SQL")
         st.write("- Microsoft Excel")
-        st.write("- QT Creator (GUI)")
-        st.write("- Azure AI Services")
     with c3:
         st.markdown("### Development")
         st.write("- Python")
-        st.write("- HTML & CSS")
-        st.write("- Flexbox & CSS Grid")
-        st.write("- LaTeX Documentation")
+        st.write("- Java")
+        
 
 with tab4:
     st.header("Education")
@@ -122,7 +101,7 @@ with tab4:
     with colA:
         st.write("**B.Tech in Computer Science and Engineering**")
         st.write("Visveswaraiah Technological University (VTU)")
-        st.write("**Score: 8.74 CGPA**")
+        st.write("**Score: 8.92 CGPA**")
     with colB:
         st.write("---")
         st.write("**Class XII (Karnataka):** 93% (2022)")
